@@ -7,18 +7,20 @@ body {
  h3 {
     text-align: center;
  }   
- .head {
-   display: flex;
-   position: relative;
-   left: 500px;
-   align-content:space-between ;
-  border: 5px solid blue;
-  border-radius: 15px;
-  width: 900px;
-  height: 500px;
- }
- .card-img-top-2 {
-   height: 370px
+ div{
+display: flex;
+flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
  }
  
+ .card-img-top-2 {
+   height: 390px;
+   width: 290px;
+  
+ }
+ .card-img-top--3 {
+  height: 370px;
+  width: 290px;
+ }
  
