@@ -12,15 +12,29 @@ display: flex;
 flex-wrap: wrap;
   gap:20px;
   justify-content: center;
+  background-color: blanchedalmond;
  }
  
  .card-img-top-2 {
-   height: 390px;
-   width: 290px;
+   height: 400px;
+   width: 370px;
   
  }
- .card-img-top--3 {
-  height: 370px;
-  width: 290px;
+ .card-img-top-3 {
+  height: 400px;
+  width: 370px;
+ }
+ .main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: rgb(141, 177, 177);
+ }
+ .footer {
+  background-color: rgb(255, 255, 252);
+  position: relative;
+  height: 150px;
+width: 3000px;
  }
  
