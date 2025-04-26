@@ -16,20 +16,19 @@ flex-wrap: wrap;
  }
  
  .card-img-top-2 {
-   height: 400px;
-   width: 370px;
+   height: 500px;
+   width: 360px;
   
  }
  .card-img-top-3 {
   height: 400px;
-  width: 370px;
+  width: 360px;
  }
  .main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  background-color: rgb(141, 177, 177);
  }
  .footer {
   background-color: rgb(255, 255, 252);
