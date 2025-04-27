@@ -12,28 +12,43 @@ display: flex;
 flex-wrap: wrap;
   gap:20px;
   justify-content: center;
-  background-color: blanchedalmond;
+  background-color: rgb(166, 192, 207);
  }
  
+ .card-img-top {
+  height: 400px;
+  width: 360px;
+  -webkit-box-shadow: -3px -8px 27px 21px rgba(116, 187, 44, 1);
+-moz-box-shadow: -3px -8px 27px 21px rgba(116, 187, 44, 1);
+box-shadow: -3px -8px 27px 21px rgba(116, 187, 44, 1);
+ }
  .card-img-top-2 {
-   height: 500px;
+   height: 400px;
    width: 360px;
-  
+   -webkit-box-shadow: -3px -8px 27px 21px rgba(44, 187, 156, 1);
+   -moz-box-shadow: -3px -8px 27px 21px rgba(44, 187, 156, 1);
+   box-shadow: -3px -8px 27px 21px rgba(44, 187, 156, 1);
  }
  .card-img-top-3 {
   height: 400px;
   width: 360px;
+  -webkit-box-shadow: -3px -8px 27px 21px rgba(44, 162, 187, 1);
+-moz-box-shadow: -3px -8px 27px 21px rgba(44, 162, 187, 1);
+box-shadow: -3px -8px 27px 21px rgba(44, 162, 187, 1);
  }
  .main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  background-color: rgb(114, 111, 119);
  }
  .footer {
-  background-color: rgb(255, 255, 252);
+  background-color: rgb(97, 97, 97);
   position: relative;
   height: 150px;
 width: 3000px;
  }
- 
+ button {
+  height: 50px;
+ }
